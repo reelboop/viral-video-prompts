@@ -35,6 +35,14 @@ function filter() {
   if (visible.length) selectPrompt(visible.includes(active) ? active : visible[0]);
 }
 
+for (const link of document.querySelectorAll('[data-prompt]')) {
+  link.addEventListener('click', () => {
+    get('category').value = 'Viral templates';
+    get('query').value = link.dataset.prompt;
+    filter();
+  });
+}
+
 get('query').addEventListener('input', filter);
 get('category').addEventListener('change', filter);
 get('copy').addEventListener('click', () => window.copyPreviewText(active.prompt, get('status'), 'Prompt copied.'));

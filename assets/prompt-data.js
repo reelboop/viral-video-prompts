@@ -1,5 +1,29 @@
 window.promptLibrary = [
   {
+    "title": "Bandit duet",
+    "group": "Viral templates",
+    "description": "A three-shot duet with a solo entrance for each performer and a shared final frame.",
+    "input": "Two separate chest-up photos. Pick a lead and a partner before planning the cuts.",
+    "prompt": "Create a 15-second duet in three shots. Open on [lead] chest-up on a lit lawn. Cut to [partner] in a tighter dry-grass shot. Bring both into a blue glass-block room in the final shot, with [lead] on the left and [partner] on the right. Let each performer take a turn, then end on both together. Keep faces and outfits consistent. Add your own or licensed audio in the edit.",
+    "source": "https://reelboop.com/create/bandit-ai-trend"
+  },
+  {
+    "title": "Elevator Outfit Change",
+    "group": "Viral templates",
+    "description": "A vertical outfit reveal using the closing elevator doors to hide each cut.",
+    "input": "One full-body photo with the face and shoes visible, plus three outfit descriptions.",
+    "prompt": "Frame [subject] full-length in the center of an elevator, with the camera locked in front. Open the doors on [first outfit]. Close them fully and cut. Open on [second outfit], then repeat for [final outfit]. Keep the face, body position, lighting, and framing the same between reveals. Hold the last look before the doors close.",
+    "source": "https://reelboop.com/create/elevator-outfit-change"
+  },
+  {
+    "title": "Hotel Lobby",
+    "group": "Viral templates",
+    "description": "A short two-person performance built around taking turns beneath a hanging microphone.",
+    "input": "Two chest-up photos with clear faces and shoulders. Choose who starts and who takes over.",
+    "prompt": "Set [first performer] and [second performer] side by side in a hotel lobby. Keep both faces visible in the same medium shot. [First performer] leans toward the hanging microphone, then [second performer] responds with a small gesture. Time the response after the lead’s beat. Keep the microphone fixed. Keep faces and positions consistent and finish with both performers visible.",
+    "source": "https://reelboop.com/create/hotel-lobby"
+  },
+  {
     "title": "Drawer reveal",
     "group": "Product & ads",
     "description": "A small object you want viewers to notice immediately. Image to video, 4–6 seconds to start.",
